@@ -14,6 +14,7 @@ Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
 BuildArch: noarch
+BuildRequires: libpython-devel
 Requires:  python >= 2.4 bazaar
 
 %description
