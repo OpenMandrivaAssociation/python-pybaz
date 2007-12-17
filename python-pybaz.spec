@@ -11,7 +11,6 @@ Source0: http://code.aaronbentley.com/pybaz/releases/%{oname}-%{version}.tar.gz
 License: GPL
 URL: http://code.aaronbentley.com/pybaz/
 Group: Development/Python
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
 BuildArch: noarch
 BuildRequires: libpython-devel
