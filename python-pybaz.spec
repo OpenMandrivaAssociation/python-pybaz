@@ -1,7 +1,7 @@
 %define oname pybaz
 %define name python-%{oname}
 %define version 1.5.3
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: Python Bindings for the Baz Revision Control System
 Name: %{name}
