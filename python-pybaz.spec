@@ -1,7 +1,7 @@
 %define oname pybaz
 %define name python-%{oname}
 %define version 1.5.3
-%define release %mkrel 7
+%define release %mkrel 8
 
 Summary: Python Bindings for the Baz Revision Control System
 Name: %{name}
@@ -46,8 +46,6 @@ rm -rf $RPM_BUILD_ROOT
 %py_puresitedir/pybaz*.egg-info
 %dir %py_puresitedir/pybaz
 %py_puresitedir/pybaz/*.py
-%py_puresitedir/pybaz/*.pyc
 %dir %py_puresitedir/pybaz/backends
 %py_puresitedir/pybaz/backends/*.py
-%py_puresitedir/pybaz/backends/*.pyc
 
