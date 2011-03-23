@@ -1,12 +1,9 @@
 %define oname pybaz
-%define name python-%{oname}
-%define version 1.5.3
-%define release %mkrel 8
 
 Summary: Python Bindings for the Baz Revision Control System
-Name: %{name}
-Version: %{version}
-Release: %{release}
+Name: python-%{oname}
+Version: 1.5.3
+Release: 9
 Source0: http://code.aaronbentley.com/pybaz/releases/%{oname}-%{version}.tar.gz
 License: GPL
 URL: http://code.aaronbentley.com/pybaz/
@@ -15,7 +12,8 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
 BuildArch: noarch
 BuildRequires: libpython-devel
-Requires:  python >= 2.4 bazaar
+Requires: python >= 2.4
+Requires: bzr
 
 %description
 PyBaz provides Python bindings for the Baz revision control system. 
