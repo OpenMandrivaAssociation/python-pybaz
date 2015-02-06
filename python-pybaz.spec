@@ -3,7 +3,7 @@
 Summary: Python Bindings for the Baz Revision Control System
 Name: python-%{oname}
 Version: 1.5.3
-Release: 10
+Release: 11
 Source0: http://code.aaronbentley.com/pybaz/releases/%{oname}-%{version}.tar.gz
 License: GPL
 URL: http://code.aaronbentley.com/pybaz/
