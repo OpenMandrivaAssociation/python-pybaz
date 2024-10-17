@@ -6,7 +6,7 @@ Version: 1.5.3
 Release: 11
 Source0: http://code.aaronbentley.com/pybaz/releases/%{oname}-%{version}.tar.gz
 License: GPL
-URL: http://code.aaronbentley.com/pybaz/
+URL: https://code.aaronbentley.com/pybaz/
 Group: Development/Python
 Prefix: %{_prefix}
 BuildArch: noarch
